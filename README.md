@@ -60,9 +60,13 @@ Important Note :
 
 Copy the modules_hooks_checkout_safe_shop.json into ClicShopping/Work/Cache/Github (manual installation)
 
+
 Install :
+
 Copy files inside your directory
+
 Activate the module in Configuration / Seo / Metas
+
 
 
  All informations about the ClicShopping
