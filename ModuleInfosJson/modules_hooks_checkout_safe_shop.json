@@ -15,7 +15,7 @@
   "type_module":      "Fixe",
   "dependance":       "",
   "description":        "Safe.Shop is the global trustmark for online shopping, helping consumers shop online with confidence and merchants to grow both at home and internationally.",
- "image":            "ModuleInfosJson/image.png",
+ "image":               "ModuleInfosJson/image.png",
 
   "authors": [
     {
