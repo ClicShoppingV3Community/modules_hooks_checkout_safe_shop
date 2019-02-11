@@ -1,0 +1,2 @@
+module_header_tags_esafe_title = Souhaitez-vous installer ce module safe.shop
+module_header_tags_esafe_description = Vous devez avoir un compte chez https://www.safe.shop pour utiliser ce module
