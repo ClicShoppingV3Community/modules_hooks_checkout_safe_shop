@@ -71,7 +71,8 @@ Community : https://www.clicshopping.org
 Software : https://github.com/ClicShopping
 Official add on : https://github.com/ClicShoppingOfficialModulesV3
 Community add on : https://github.com/ClicShoppingV3Community
-trademark License info : https://www.clicshopping.org/forum/trademark/ 
+trademark License info : https://www.clicshopping.org/forum/trademark/
+
 
 
 ![image](https://github.com/ClicShoppingV3Community/modules_hooks_checkout_safe_shop/blob/master/ModuleInfosJson/image.png)
