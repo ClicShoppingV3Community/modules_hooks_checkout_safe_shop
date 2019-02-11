@@ -67,11 +67,17 @@ Activate the module in Configuration / Seo / Metas
 
  All informations about the ClicShopping
 
-Community : https://www.clicshopping.org
-Software : https://github.com/ClicShopping
-Official add on : https://github.com/ClicShoppingOfficialModulesV3
-Community add on : https://github.com/ClicShoppingV3Community
-trademark License info : https://www.clicshopping.org/forum/trademark/
+ Download ClicShopping : https://github.com/ClicShopping/ClicShopping_V3/archive/master.zip
+
+ Community : https://www.clicshopping.org
+
+ Software : https://github.com/ClicShopping
+
+ Official add on : https://github.com/ClicShoppingOfficialModulesV3
+
+ Community add on : https://github.com/ClicShoppingV3Community
+
+ trademark License info : https://www.clicshopping.org/forum/trademark/ 
 
 
 
