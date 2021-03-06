@@ -16,8 +16,8 @@
 
   class ht_esafe
   {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -30,7 +30,7 @@
       $this->title = CLICSHOPPING::getDef('module_header_tags_esafe_title');
       $this->description = CLICSHOPPING::getDef('module_header_tags_esafe_description');
 
-      if (defined('MODULE_HEADER_TAGS_ESAFE_STATUS')) {
+      if (\defined('MODULE_HEADER_TAGS_ESAFE_STATUS')) {
         $this->sort_order = MODULE_HEADER_TAGS_ESAFE_SORT_ORDER;
         $this->enabled = (MODULE_HEADER_TAGS_ESAFE_STATUS == 'True');
       }
@@ -41,7 +41,7 @@
 
       $CLICSHOPPING_Template = Registry::get('Template');
 
-      if (defined('MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY') && defined('MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID') && !empty(MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY) && !empty(MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID)) {
+      if (\defined('MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY') && \defined('MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID') && !empty(MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY) && !empty(MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID)) {
 
         $footer_tag = '<!-- Safe.shop start -->';
         $footer_tag .= '<script src="https://merchant.safe.shop/widget.js"></script>';
@@ -58,7 +58,7 @@
 
     public function check()
     {
-      return defined('MODULE_HEADER_TAGS_ESAFE_STATUS');
+      return \defined('MODULE_HEADER_TAGS_ESAFE_STATUS');
     }
 
     public function install()
