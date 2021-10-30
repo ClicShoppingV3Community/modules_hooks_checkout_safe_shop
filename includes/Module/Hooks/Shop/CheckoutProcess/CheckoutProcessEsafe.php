@@ -61,7 +61,7 @@
     {
       $CLICSHOPPING_Language = Registry::get('Language');
 
-      if (isset($_GET['Checkout']) && isset($_GET['Process'])) {
+      if (isset($_GET['Checkout'], $_GET['Process'])) {
         if (\defined('MODULE_HEADER_TAGS_ESAFE_STATUS') && MODULE_HEADER_TAGS_ESAFE_STATUS == 'True') {
           if (\defined('MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY') && \defined('MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID') && !empty(MODULE_HEADER_TAGS_ESAFE_API_SECRETKEY) && !empty(MODULE_HEADER_TAGS_ESAFE_SITE_API_CLIENTID)) {
             $language_code = $CLICSHOPPING_Language->getCode();
